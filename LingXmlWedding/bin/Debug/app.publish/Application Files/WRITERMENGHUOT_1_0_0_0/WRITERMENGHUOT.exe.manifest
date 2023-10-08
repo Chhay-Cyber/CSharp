@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WRITERMENGHUOT.exe" version="1.0.0.0" publicKeyToken="2a8fafa1e68cf7ff" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="iill.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WRITERMENGHUOT" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WRITERMENGHUOT.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClosedXML.dll" size="796160">
+      <assemblyIdentity name="ClosedXML" version="0.69.1.0" publicKeyToken="FD1EB21B62AE805B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+7qEh7XWwF8v7Ipa208g5bzqo4mmBaWKTyF6lgZ7KxY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DocumentFormat.OpenXml.dll" size="5233512">
+      <assemblyIdentity name="DocumentFormat.OpenXml" version="2.0.5022.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uxjFQNbB7IDX066aU48yBebj5pXGeI5AbXk8U9UO1BU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="1510056">
+      <assemblyIdentity name="Guna.UI2" version="2.0.0.1" publicKeyToken="AD275B4BE6718D4B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v3KTmSKvos0XBx9RcLSoLQW86x/DPOKc37xo27l/Anc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WRITERMENGHUOT.exe" size="344064">
+      <assemblyIdentity name="WRITERMENGHUOT" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Jmn8LDRY0DQ3ivSqpq4hhY99HUXnrI6DYzFh9ferCZI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AboutMe.txt" size="25">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7+errCu0x+frt5UuIgfkUuOh6JBzLbLRwbZ3Cqc/Cwc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AutoSuggest\Address.xml" size="2696" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Z3pBVju1EQ2UZpUpNVOeVxlsiSw5Wc0Fpkc2qhSGTtA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AutoSuggest\KhmerCurrency.xml" size="1955" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9K8dJcFExxcv0+2i0j/tZ7Oz6wLWwu4pp66qXIg/oTY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AutoSuggest\USACurrency.xml" size="1210" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dOZavw7ut87cFFh5pFO3HBbHxYzwdu+R5I0prLz++LY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iill.ico" size="25974">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BYmFkvOyaCPLgHouB1xL5h98Wh/+YR+lbrEE12PYc+Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WRITERMENGHUOT.exe.config" size="1037">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2K15h4mpgjgmUbEAjk8oUL5L2FHoOIdsL4GEi7vg404=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-F5S1BID\User" issuerKeyHash="5eac478249a788df27e2b9e2cf9e37d22ff1c345" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5CMCUaqM63nvuwEJZ5LyM3dm2SInqwi1+za/R/QxMSQ=</DigestValue></Reference></SignedInfo><SignatureValue>YiGKzrBhhtPGK0uRuGfKSlwQHKqGct7V2J1xZvkt7JYLtz0QGGTzfgED21VStq2R7hMX0//v7Ey2Yh5dQ/ZPgrrJxThWI2yH69vZiO/pRSbFdo0Rx3u/LSYwbP9hqnM6Yorevn/4gQZepcjtPljWtYzfHZmdfux00k59SAaoAyQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>43GcyrZHEH0qu07QhFabyuHk2cvB0fJFeWd9MfLWWzzf/GVByJWYg8+gCdRTwRUt+V1p/uJG1FeWZ64B3qlzQCClIYPxycbdOuKvf0mYHzpGPYgQPmRnuXn3WtCDB4TtLZIA2VaT4uQo92Ons7W4uv5bYKy1dEVrWANkkzY1zv0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="243131f447bf36fbb508ab2722d9667733f292670901bbef79eb8caa510223e4" Description="" Url=""><as:assemblyIdentity name="WRITERMENGHUOT.exe" version="1.0.0.0" publicKeyToken="2a8fafa1e68cf7ff" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-F5S1BID\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>d9T4DE9289WJNuS4Zx2oJpcfRY9M3xvOizPHJqHFt8w=</DigestValue></Reference></SignedInfo><SignatureValue>R4sqTG02OBQwWDbGtOOltoJO9rOMsPhmNOo2A6syI3hMz6+V2bdNmtVDR7yFfWR8Z9ZjnizQr1ppbpve6sj0Ej8bG8DQmyG0PW1L70hy4Ccz9ylg1OLZfq59R4kuHSRybgpDy7lDysoTdoD8x0M87elVNnOkhBNbBd847lv6lgQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>43GcyrZHEH0qu07QhFabyuHk2cvB0fJFeWd9MfLWWzzf/GVByJWYg8+gCdRTwRUt+V1p/uJG1FeWZ64B3qlzQCClIYPxycbdOuKvf0mYHzpGPYgQPmRnuXn3WtCDB4TtLZIA2VaT4uQo92Ons7W4uv5bYKy1dEVrWANkkzY1zv0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQWoeKN5H/3rFKXrn9lDpuQzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEYANQBTADEAQgBJAEQAXABVAHMAZQByMB4XDTIxMDMwMTA5MjQzN1oXDTIyMDMwMTE1MjQzN1owMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBGADUAUwAxAEIASQBEAFwAVQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA43GcyrZHEH0qu07QhFabyuHk2cvB0fJFeWd9MfLWWzzf/GVByJWYg8+gCdRTwRUt+V1p/uJG1FeWZ64B3qlzQCClIYPxycbdOuKvf0mYHzpGPYgQPmRnuXn3WtCDB4TtLZIA2VaT4uQo92Ons7W4uv5bYKy1dEVrWANkkzY1zv0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBFDrwymAm92jkhxf00ACCGbbLIUI40HdlYbMprMgKWiCQ/kqhS1JYup4fRi3AzagzgQapEH90ltbN5qdQr8PRQ/35NyBxPW0RzN2IqMPOG8khSPS2LaJo8h86e1+SCH5EzffZ/CEgEbO0WVBufQJ914MtENIz0VL8HbtdKN+Zk4g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

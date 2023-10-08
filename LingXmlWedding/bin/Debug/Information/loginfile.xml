@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Users>
+  <User>
+    <Username>Botra</Username>
+    <Gender>Null</Gender>
+    <Email>df</Email>
+    <DateOfBirth>2/1/2021</DateOfBirth>
+    <DateSignup>2/1/2021</DateSignup>
+    <Password>ff</Password>
+  </User>
+  <User>
+    <Username>h</Username>
+    <Gender>Female</Gender>
+    <Email>k</Email>
+    <DateOfBirth>2/3/2021</DateOfBirth>
+    <DateSignup>2/3/2021</DateSignup>
+    <Password>h</Password>
+  </User>
+  <User>
+    <Username>Menghuot</Username>
+    <Gender>Male</Gender>
+    <Email>menghuot9@gmail.com</Email>
+    <DateOfBirth>5/31/2022</DateOfBirth>
+    <DateSignup>5/31/2022</DateSignup>
+    <Password>123</Password>
+  </User>
+</Users>

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<AddressS>
+	
+<!--Top -->
+
+<Address>
+    <name>ភ្នំពេញ</name>
+  </Address>
+  <Address>
+    <name>តាកែវ</name>
+  </Address>
+  <Address>
+    <name>កណ្ដាល</name>
+  </Address>
+  <Address>
+    <name>កំពត</name>
+  </Address>
+  <Address>
+    <name>បាត់ដំបង</name>
+  </Address>
+  
+  <Address>
+    <name>អង្គរបូរី</name>
+  </Address>
+  <Address>
+    <name>បូរីជលសារ</name>
+  </Address>
+  <Address>
+    <name>គិរីវង់</name>
+  </Address>
+  <Address>
+    <name>កោះអណ្ដែត</name>
+  </Address>
+  <Address>
+    <name>ដូនកែវ</name>
+  </Address>
+  <Address>
+    <name>ត្រាំកក់</name>
+  </Address>
+  <Address>
+    <name>ទ្រាំង</name>
+  </Address>
+  
+  <!--My District--> 
+  
+  <Address>
+    <name>ព្រៃកប្បាស</name>
+  </Address>
+  <Address>
+    <name>អង្កាញ់</name>
+  </Address>
+  <Address>
+    <name>បានកាម</name>
+  </Address>
+  <Address>
+    <name>ចំប៉ា</name>
+  </Address>
+  <Address>
+    <name>ចារ</name>
+  </Address>
+  <Address>
+    <name>កំពែង</name>
+  </Address>
+  <Address>
+    <name>កំពង់រាប</name>
+  </Address>
+  <Address>
+    <name>ក្ដាញ់</name>
+  </Address>
+  <Address>
+    <name>ពោធិ៏រំចាក</name>
+  </Address>
+  <Address>
+    <name>ព្រៃកប្បាស</name>
+  </Address>
+  <Address>
+    <name>ព្រៃល្វា</name>
+  </Address>
+  <Address>
+    <name>ព្រៃផ្ដៅ</name>
+  </Address>
+  <Address>
+    <name>ស្នោ</name>
+  </Address>
+
+	
+	
+	
+<!--My Location-->
+  <Address>
+    <name>តាំងយ៉ាប</name>
+  </Address>
+  <Address>
+    <name>ត្រពាំងទា</name>
+  </Address>
+  <Address>
+    <name>ព្រៃចំបក់</name>
+  </Address>
+  <Address>
+    <name>ត្រពាំងស្តុក</name>
+  </Address>
+  <Address>
+    <name>ស្នួលខ្ពស់</name>
+  </Address>
+  <Address>
+    <name>ក្រាំងអំពិល</name>
+  </Address>
+  <Address>
+    <name>ក្រាំងចំរើន</name>
+  </Address>
+  <Address>
+    <name>ជំរៅ</name>
+  </Address>
+  <Address>
+    <name>រលួស</name>
+  </Address>
+  <Address>
+    <name>ច្រនៀងខ្ពស់</name>
+  </Address>
+  <Address>
+    <name>អង់រវាយ</name>
+  </Address>
+  <Address>
+    <name>សំបូរ</name>
+  </Address>
+  
+</AddressS>
